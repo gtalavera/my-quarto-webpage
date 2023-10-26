@@ -1,9 +1,7 @@
 ---
 title: ""
+toc: false
 listing: 
-  - id: servicios
-    contents: "servicios/*.qmd"
-    type: grid
   - id: portafolio
     contents: "portafolio/*.qmd"
     type: grid
@@ -20,44 +18,40 @@ listing:
 
 
 ::: {#services .services}
-::: {.card}
+# Servicios
+
+::: {.card-container}
+::: {.service-card}
 ::: {.card-header}
 ## Dashboards
-![Data Audit Icon](images/analytics.png)
+![](images/table-columns-solid.svg){class=service-image}
 :::
 ::: {.card-body}
-Have a lot of data but don't know what to do with it? I'll work with you to understand your business model. Then I'll perform a deep dive of your data to look at possible data correlations, trends, and future opportunities to help guide your business strategy.
+Muestra el estado de avance de los KPI de tus proyectos o pon a disposición los datos de tus estudios para que tu audiencia pueda interactuar fácilmente con ellos, descubrir tendencias o profundizar en las particularidades de un territorio. Puedes incluir elementos interactivos como mapas, tablas, gráficos y mucho más. 
 :::
 :::
-::: {.card}
+::: {.service-card}
 ::: {.card-header}
-## Data Visualization
-![Visualization Icon](images/visualization.png)
+## Briefs
+![](images/file-lines-regular.svg){class=service-image}
 :::
 ::: {.card-body}
-Includes static visualizations fit for print and interactive graphics optimized for the web. I apply information design best practices to synthesize your data and highlight key insights. Use cases: pitch decks, white papers, internal reports, website development.
-:::
-:::
-::: {.card}
-::: {.card-header}
-## Reports & Dashboards
-![Report Automation Icon](images/reports.png)
-:::
-::: {.card-body}
-I help improve operational efficiency by streamlining data analytics workflows. Whether it's streamlining canned reports, creating dashboards, or setting up a business intelligence tool, I'll automate routine processes so your team can focus on other projects.
-:::
-:::
-::: {.card}
-::: {.card-header}
-## Workshops & Training
-![Workshops Icon](images/workshops.png)
-:::
-::: {.card-body}
-I work with teams to build data-driven cultures by providing one-on-one coaching and group workshops. This includes hands-on training for data practitioners looking to elevate their visualization skills, as well as non-technical training to help business professionals improve data literacy.
-:::
-:::
-:::
+Convierte extensos reportes de investigación o resultados de trabajo de campo en documentos breves con visualizaciones estáticas efectivas que te ayuden a difundir tus hallazgos o recomendaciones de política.
 
+:::
+:::
+::: {.service-card}
+::: {.card-header}
+## Visualizaciones
+![](images/chart-column-solid.svg){class=service-image}
+:::
+::: {.card-body}
+
+Sintetiza tus hallazgos en gráficos efectivos que transmitan los mensajes más importantes de tus datos para tu público objetivo. Usa estos gráficos estáticos o animados para tus publicaciones en redes sociales o como insumos para tus presentaciones o pitchs.
+:::
+:::
+:::
+:::
 
 This is a Quarto website.
 

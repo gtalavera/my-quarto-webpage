@@ -65,34 +65,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-servicios .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-servicios'] = new List('listing-servicios', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-portafolio .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -182,9 +154,7 @@ gtag('config', 'G-Z7H5N2FX19', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content page-columns page-full column-body" id="quarto-document-content">
 
@@ -194,62 +164,38 @@ gtag('config', 'G-Z7H5N2FX19', { 'anonymize_ip': true});
 <p>“Prueba”</p>
 </div>
 <div id="services" class="services">
-<div class="card">
+<section id="servicios" class="level1">
+<h1>Servicios</h1>
+<div class="card-container">
+<div class="service-card">
 <section id="dashboards" class="level2 card-header">
 <h2 class="anchored" data-anchor-id="dashboards">Dashboards</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/analytics.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Data Audit Icon</figcaption>
-</figure>
-</div>
+<p><img src="images/table-columns-solid.svg" class="service-image img-fluid"></p>
 </section>
 <div class="card-body">
-<p>Have a lot of data but don’t know what to do with it? I’ll work with you to understand your business model. Then I’ll perform a deep dive of your data to look at possible data correlations, trends, and future opportunities to help guide your business strategy.</p>
+<p>Muestra el estado de avance de los KPI de tus proyectos o pon a disposición los datos de tus estudios para que tu audiencia pueda interactuar fácilmente con ellos, descubrir tendencias o profundizar en las particularidades de un territorio. Puedes incluir elementos interactivos como mapas, tablas, gráficos y mucho más.</p>
 </div>
 </div>
-<div class="card">
-<section id="data-visualization" class="level2 card-header">
-<h2 class="anchored" data-anchor-id="data-visualization">Data Visualization</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/visualization.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Visualization Icon</figcaption>
-</figure>
-</div>
+<div class="service-card">
+<section id="briefs" class="level2 card-header">
+<h2 class="anchored" data-anchor-id="briefs">Briefs</h2>
+<p><img src="images/file-lines-regular.svg" class="service-image img-fluid"></p>
 </section>
 <div class="card-body">
-<p>Includes static visualizations fit for print and interactive graphics optimized for the web. I apply information design best practices to synthesize your data and highlight key insights. Use cases: pitch decks, white papers, internal reports, website development.</p>
+<p>Convierte extensos reportes de investigación o resultados de trabajo de campo en documentos breves con visualizaciones estáticas efectivas que te ayuden a difundir tus hallazgos o recomendaciones de política.</p>
 </div>
 </div>
-<div class="card">
-<section id="reports-dashboards" class="level2 card-header">
-<h2 class="anchored" data-anchor-id="reports-dashboards">Reports &amp; Dashboards</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/reports.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Report Automation Icon</figcaption>
-</figure>
-</div>
+<div class="service-card">
+<section id="visualizaciones" class="level2 card-header">
+<h2 class="anchored" data-anchor-id="visualizaciones">Visualizaciones</h2>
+<p><img src="images/chart-column-solid.svg" class="service-image img-fluid"></p>
 </section>
 <div class="card-body">
-<p>I help improve operational efficiency by streamlining data analytics workflows. Whether it’s streamlining canned reports, creating dashboards, or setting up a business intelligence tool, I’ll automate routine processes so your team can focus on other projects.</p>
+<p>Sintetiza tus hallazgos en gráficos efectivos que transmitan los mensajes más importantes de tus datos para tu público objetivo. Usa estos gráficos estáticos o animados para tus publicaciones en redes sociales o como insumos para tus presentaciones o pitchs.</p>
 </div>
 </div>
-<div class="card">
-<section id="workshops-training" class="level2 card-header">
-<h2 class="anchored" data-anchor-id="workshops-training">Workshops &amp; Training</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/workshops.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Workshops Icon</figcaption>
-</figure>
 </div>
 </section>
-<div class="card-body">
-<p>I work with teams to build data-driven cultures by providing one-on-one coaching and group workshops. This includes hands-on training for data practitioners looking to elevate their visualization skills, as well as non-technical training to help business professionals improve data literacy.</p>
-</div>
-</div>
 </div>
 <p>This is a Quarto website.</p>
 <p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
@@ -257,14 +203,7 @@ gtag('config', 'G-Z7H5N2FX19', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-servicios">
-<div class="list grid quarto-listing-cols-3">
-
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><div class="quarto-listing quarto-listing-container-grid" id="listing-portafolio">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-portafolio">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="R,RShiny,Dashboards" data-listing-date-sort="1679461200000" data-listing-file-modified-sort="1698273952249" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./portafolio/idsmh.html" class="quarto-grid-link">

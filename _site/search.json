@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "<span style=font-size:x-large>Gonzalo Talavera Forlin</span><br><span style=font-size:small>Visualización de datos para politicas públicas</span>",
+    "title": "Servicios",
     "section": "",
     "text": "“Prueba”\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
@@ -65,29 +65,50 @@
   {
     "objectID": "index.html#data-visualization",
     "href": "index.html#data-visualization",
-    "title": "<span style=font-size:x-large>Gonzalo Talavera Forlin</span><br><span style=font-size:small>Visualización de datos para politicas públicas</span>",
+    "title": "Servicios",
     "section": "Data Visualization",
     "text": "Data Visualization\n\n\n\nVisualization Icon"
   },
   {
     "objectID": "index.html#reports-dashboards",
     "href": "index.html#reports-dashboards",
-    "title": "<span style=font-size:x-large>Gonzalo Talavera Forlin</span><br><span style=font-size:small>Visualización de datos para politicas públicas</span>",
+    "title": "Servicios",
     "section": "Reports & Dashboards",
     "text": "Reports & Dashboards\n\n\n\nReport Automation Icon"
   },
   {
     "objectID": "index.html#workshops-training",
     "href": "index.html#workshops-training",
-    "title": "<span style=font-size:x-large>Gonzalo Talavera Forlin</span><br><span style=font-size:small>Visualización de datos para politicas públicas</span>",
+    "title": "Servicios",
     "section": "Workshops & Training",
     "text": "Workshops & Training\n\n\n\nWorkshops Icon"
   },
   {
     "objectID": "index.html#dashboards",
     "href": "index.html#dashboards",
-    "title": "<span style=font-size:x-large>Gonzalo Talavera Forlin</span><br><span style=font-size:small>Visualización de datos para politicas públicas</span>",
+    "title": "Servicios",
     "section": "Dashboards",
-    "text": "Dashboards\n\n\n\nData Audit Icon"
+    "text": "Dashboards"
+  },
+  {
+    "objectID": "index.html#briefs",
+    "href": "index.html#briefs",
+    "title": "Servicios",
+    "section": "Briefs",
+    "text": "Briefs"
+  },
+  {
+    "objectID": "index.html#visualizaciones-de",
+    "href": "index.html#visualizaciones-de",
+    "title": "Servicios",
+    "section": "Visualizaciones de",
+    "text": "Visualizaciones de"
+  },
+  {
+    "objectID": "index.html#visualizaciones",
+    "href": "index.html#visualizaciones",
+    "title": "Servicios",
+    "section": "Visualizaciones",
+    "text": "Visualizaciones"
   }
 ]
