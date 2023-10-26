@@ -1,0 +1,30 @@
+---
+title: "Tablero del Índice del desarrollo social de la mujer y el hombre"
+subtitle: "Tablero en Shiny para Centrum Pucp"
+description: "Tablero en Shiny para Centrum Pucp"
+# author: "Gonzalo"
+image: idsmh.gif
+toc: false
+page-layout: article
+date: "3/22/2023"
+categories:
+  - R
+  - RShiny
+  - Dashboards
+---
+
+Cada día ocurren 4 nacimientos en niñas de 10 a 14 años en el Perú. Colaboramos con el [\@unfpaperu](https://twitter.com/UNFPAPeru) en analizar y visualizar los datos oficiales que muestran la situación del embarazo adolescente.
+
+Puedes explorar el [tablero interactivo en la web del unfpa](https://peru.unfpa.org/es/mapa-embarazo-y-maternidad-adolescentes-peru)
+
+Publicado en:
+
+```{=html}
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+
+https://twitter.com/UNFPAPeru/status/1574402928139460610
+
+</div></figure>
+```

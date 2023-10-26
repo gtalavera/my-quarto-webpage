@@ -1,0 +1,21 @@
+/* css styles */
+
+.navbar-logo {
+  min-height: 60px;
+  border-radius: 10px;
+}
+
+.menu-text{
+  font-size:x-large;
+}
+
+.mi-encabezado{
+  margin-top:0px;
+}
+
+.column-screen{
+  background: #BAA6A5;
+  margin-top:-32px;
+  margin-bottom:30px;
+}
+
