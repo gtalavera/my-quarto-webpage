@@ -33,6 +33,8 @@ format:
       dark: darkly
     css: styles.css
     toc: true
+    extensions:
+      - fontawesome
 
 editor: visual
 
