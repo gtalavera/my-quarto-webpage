@@ -1,17 +1,16 @@
 ---
 title: ""
+filters:
+   - lightbox
+lightbox:
+  effect: fade
+  desc-position: right
+  loop: false
+  css-class: galeria
 toc: false
 listing: 
   - id: portafolio
     contents: "portafolio/*.qmd"
-    type: grid
-    sort: "date desc"
-    categories: false
-    sort-ui: false
-    filter-ui: false
-    fields: [image, title]
-  - id: galeria
-    contents: "galeria/*.qmd"
     type: grid
     sort: "date desc"
     categories: false
@@ -87,7 +86,15 @@ Sintetiza tus hallazgos en gráficos efectivos que transmitan los mensajes más 
 :::
 
 # Galería
-::: {#galeria}
+
+::: {layout="[[1, 1, 1]]"}
+
+![](portafolio/idsmh.gif){.lightbox group="galeria" description="Sunburst para Centrum Think"}
+
+![The Last Lovely Image](images/gtf.jpeg){.lightbox group="galeria" description="Otra cosa"}
+
+![The Last Lovely Image](images/gtf.jpeg){.lightbox group="galeria" description="Una nueva cosa"}
+
 :::
 
 

@@ -110,5 +110,12 @@
     "title": "Consultor independiente",
     "section": "Visualizaciones",
     "text": "Visualizaciones"
+  },
+  {
+    "objectID": "portafolio/calles_de_mujeres.html",
+    "href": "portafolio/calles_de_mujeres.html",
+    "title": "De qué mujeres hablan nuestras calles",
+    "section": "",
+    "text": "Solo 406 mujeres tienen calles con sus nombres en Lima y Callao. ¿Quiénes son esas mujeres en nuestra historia? ¿qué roles representan? ¿dónde están esas calles?.\nExplora la versión interactiva del mapa en este enlace.\n\n\n\n\n\nEste es un trabajo del equipo de desarro.io. La idea y el prototipo en Python son de carla solis. El desarrollo web es de gonzalo talavera forlin. Los textos, análisis y verificación de datos son de ioanna gallo, Daniela Velit y Gonzalo. Las imágenes son de carlos julio san martín. También participaron Luis Eduardo San Martín y Marcy Castro."
   }
 ]

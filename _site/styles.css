@@ -16,9 +16,9 @@
 
 .column-screen{
   background: #BAA6A5;
-  margin-top:0px;
+  margin-top:-32px;
   margin-bottom:30px;
-  padding: 20px;
+  padding: 50px;
 }
 
 .service-image{
