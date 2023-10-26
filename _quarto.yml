@@ -5,7 +5,7 @@ website:
   title: "<span style=font-size:x-large>Gonzalo Talavera Forlin</span><br><span style=font-size:small>Visualización de datos para politicas públicas</span>"
   navbar:
     background: "#5297AC"
-    fixed: true
+    pinned: true
     search: true
     logo: "/images/gtf_headshot.jpeg"
     left:
@@ -27,7 +27,6 @@ website:
 
 format:
   html:
-    page-layout: full
     theme:
       light: flatly
       dark: darkly
@@ -35,6 +34,13 @@ format:
     toc: true
     extensions:
       - fontawesome
+    link-external-newwindow: true
+    grid:
+      sidebar-width: 190px
+      body-width: 1200px
+      margin-width: 190px
+      gutter-width: 1.5rem
+
 
 editor: visual
 

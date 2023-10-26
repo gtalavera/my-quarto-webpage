@@ -10,48 +10,86 @@ listing:
     sort-ui: false
     filter-ui: false
     fields: [image, title]
+  - id: galeria
+    contents: "galeria/*.qmd"
+    type: grid
+    sort: "date desc"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [image, title]
 ---
 
-::: {.column-screen}
-"Prueba"
+:::::: {.column-screen}
+
+::: {.column-body layout="[ 80, 20 ]"}
+# Consultor independiente {style="margin-top: 0px;"}
+Ayudo a organizaciones que trabajan en políticas públicas a usar sus datos para encontrar y comunicar con efectividad y rigurosidad los mensajes más importantes que se puedan obtener de ellos. Analizo datos y produzco visualizaciones que acercar contenidos complejos a públicos con distintos niveles de especialización.
+
+![](images/gtf.jpeg){style="border-radius: 10px;"}
 :::
 
+::::::
 
-::: {#services .services}
+
+
+:::::::::::: {#services .services}
 # Servicios
 
-::: {.card-container}
-::: {.service-card}
+::::::::: {.card-container}
+
+:::::: {.service-card}
+
 ::: {.card-header}
 ## Dashboards
 ![](images/table-columns-solid.svg){class=service-image}
 :::
+
 ::: {.card-body}
 Muestra el estado de avance de los KPI de tus proyectos o pon a disposición los datos de tus estudios para que tu audiencia pueda interactuar fácilmente con ellos, descubrir tendencias o profundizar en las particularidades de un territorio. Puedes incluir elementos interactivos como mapas, tablas, gráficos y mucho más. 
 :::
-:::
-::: {.service-card}
+
+::::::
+
+:::::: {.service-card}
+
 ::: {.card-header}
 ## Briefs
 ![](images/file-lines-regular.svg){class=service-image}
 :::
+
 ::: {.card-body}
 Convierte extensos reportes de investigación o resultados de trabajo de campo en documentos breves con visualizaciones estáticas efectivas que te ayuden a difundir tus hallazgos o recomendaciones de política.
+:::
 
-:::
-:::
-::: {.service-card}
+::::::
+
+:::::: {.service-card}
+
 ::: {.card-header}
 ## Visualizaciones
 ![](images/chart-column-solid.svg){class=service-image}
 :::
+
 ::: {.card-body}
 
 Sintetiza tus hallazgos en gráficos efectivos que transmitan los mensajes más importantes de tus datos para tu público objetivo. Usa estos gráficos estáticos o animados para tus publicaciones en redes sociales o como insumos para tus presentaciones o pitchs.
 :::
+
+::::::
+
+:::::::::
+
+::::::::::::
+
+# Proyectos
+::: {#portafolio}
 :::
+
+# Galería
+::: {#galeria}
 :::
-:::
+
 
 This is a Quarto website.
 

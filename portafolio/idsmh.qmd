@@ -2,7 +2,6 @@
 title: "Tablero del Índice del desarrollo social de la mujer y el hombre"
 subtitle: "Tablero en Shiny para Centrum Pucp"
 description: "Tablero en Shiny para Centrum Pucp"
-# author: "Gonzalo"
 image: idsmh.gif
 toc: false
 page-layout: article
