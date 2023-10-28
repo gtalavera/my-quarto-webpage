@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "<span style=font-size:x-large>Gonzalo Talavera Forlin</span><br><span style=font-size:small>Visualización de datos para politicas públicas</span>"
