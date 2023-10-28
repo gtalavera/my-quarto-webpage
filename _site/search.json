@@ -117,5 +117,33 @@
     "title": "De qué mujeres hablan nuestras calles",
     "section": "",
     "text": "Solo 406 mujeres tienen calles con sus nombres en Lima y Callao. ¿Quiénes son esas mujeres en nuestra historia? ¿qué roles representan? ¿dónde están esas calles?.\nExplora la versión interactiva del mapa en este enlace.\n\n\n\n\n\nEste es un trabajo del equipo de desarro.io. La idea y el prototipo en Python son de carla solis. El desarrollo web es de gonzalo talavera forlin. Los textos, análisis y verificación de datos son de ioanna gallo, Daniela Velit y Gonzalo. Las imágenes son de carlos julio san martín. También participaron Luis Eduardo San Martín y Marcy Castro."
+  },
+  {
+    "objectID": "portafolio/mayores_de_60.html",
+    "href": "portafolio/mayores_de_60.html",
+    "title": "Mayores de 60 años en manzanas de Lima",
+    "section": "",
+    "text": "Este fue uno de mis primeros trabajos haciendo mapas. Utilizando datos del Censo de Población y Vivienda 2017 calculé la proporción de personas mayores de 60 años por manzana y la publiqué en un mapa interactivo."
+  },
+  {
+    "objectID": "portafolio/mayores_de_60_ciudades.html",
+    "href": "portafolio/mayores_de_60_ciudades.html",
+    "title": "Mayores de 60 años en manzanas de ciudades peruanas selecionadas",
+    "section": "",
+    "text": "A continuación del mapa de Mayores de 60 años en manzanas de Lima, produje mapas similares para otras ciudades principales del Perú."
+  },
+  {
+    "objectID": "portafolio/mayores_de_60_lima.html",
+    "href": "portafolio/mayores_de_60_lima.html",
+    "title": "Mayores de 60 años en manzanas de Lima",
+    "section": "",
+    "text": "Este fue uno de mis primeros trabajos haciendo mapas. Al inicio de la pandemia era imporante ubicar en el territorio las zonas con mayor proporción de población vulnerable. Uno de estos grupos era el de mayores de 60 años. Utilizando datos del Censo de Población y Vivienda 2017 calculé la proporción de personas mayores de 60 años por manzana y publiqué los resultados en un mapa interactivo."
+  },
+  {
+    "objectID": "portafolio/tablero_cerf.html",
+    "href": "portafolio/tablero_cerf.html",
+    "title": "Tablero de monitoreo del proyecto Salvando vidas del UNFPA",
+    "section": "",
+    "text": "Cada día ocurren 4 nacimientos en niñas de 10 a 14 años en el Perú. Colaboramos con el @unfpaperu en analizar y visualizar los datos oficiales que muestran la situación del embarazo adolescente.\nPuedes explorar el tablero interactivo en la web del unfpa\nPublicado en:\n\n\n\n\nhttps://twitter.com/UNFPAPeru/status/1574402928139460610"
   }
 ]

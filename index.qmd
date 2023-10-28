@@ -13,6 +13,7 @@ listing:
     contents: "portafolio/*.qmd"
     type: grid
     image-height: 250px
+    max-items: 6
     sort: "date desc"
     categories: false
     sort-ui: false
@@ -94,20 +95,21 @@ Sintetiza tus hallazgos en gráficos efectivos que transmitan los mensajes más 
 ::: {.column-screen .gallery layout="[[1, 1, 1, 1]]"}
 
 ![](gallery/1_1_centrum_reactable.gif){.lightbox style="width:100%;" group="galeria" description="Las tablas con Reactable se pueden filtrar y ordernar, y pueden incluir minigráficos o imágenes en sus celdas."}
+![](gallery/mapa-popups.gif){.lightbox style="width:100%;" group="galeria" description="Mapa con popups que muestran contenido y enlazan a contenido externo."}
 ![](gallery/1_2_seguros_map.png){.lightbox group="galeria" description="Los datos censales permiten elaborar mapas a nivel de manzana."}
 ![](gallery/1_3_small_multiples.png){.lightbox group="galeria" description="Small multiples sobre niveles de pobreza en el Perú, con datos de la Encuesta nacional de hogares."}
-![](gallery/2_4_seguros_stackedbars.png){.lightbox group="galeria" description="Diagrama de datos apilados con datos del censo de población y vivienda 2017 del Perú."}
-
 
 ![](gallery/2_1_centrum_map.gif){.lightbox group="galeria" description="Los mapas en Leaflet pueden mostrar contenido emergente y se pueden explorar."}
 ![](gallery/2_2_centrum_snake.gif){.lightbox group="galeria" description="Los diagramas de dispersión en Plotly permiten seleccionar o aislar series y ordenar o filtrar los datos."}
 ![](gallery/2_3_mapaea_dashboard.gif){.lightbox group="galeria" description="Tablero en Shiny para el UNFPA Perú."}
 ![](gallery/2_5_discursos_facet.png){.lightbox group="galeria" description="Diagramas con facets para mostrar información desagregada. Colaboración con Luis Eduardo San martín, Carla Solís y desarro.io."}
+![](gallery/2_4_seguros_stackedbars.png){.lightbox group="galeria" description="Diagrama de datos apilados con datos del censo de población y vivienda 2017 del Perú."}
 
 ![](gallery/3_1_mapaea_infografia.png){.lightbox group="galeria" description="Infografías estáticas con prinicpales hallazgos de el estudio sobre embarazo y maternidad adolescentes del UNFPA Perú."}
 ![](gallery/3_2_centrum_scatters.gif){.lightbox group="galeria" description="Diagramas de dispersión para mostrar correlación entre variables"}
 ![](gallery/3_3_ministros_barplot.png){.lightbox group="galeria" description="Diagramas estáticos efectivos. Colaboración con Ioanna Gallo y Luis Eduardo San Martín."}
 
+![](gallery/barplots_avances.gif){.lightbox group="galeria" description="Minigráficos para el monitoreo de avances de un proyecto."}
 ![](gallery/1_5_ministras_plot.png){.lightbox group="galeria" description="Gráfico estático con esquinas redondeadas para mostrar sucesiones en el tiempo. Colaboración con Carla Solís y desarro.io."}
 ![](gallery/2_6_discursos_similitud.png){.lightbox group="galeria" description="Diagramas de dispersión. Colaboración con Luis Eduardo San martín, Carla Solís y desarro.io."}
 ![](gallery/3_4_calles_article.gif){.lightbox group="galeria" description="Data story sobre calles de Lima con nombres de mujeres. Colaboración con Carla Solís y desarro.io."}
