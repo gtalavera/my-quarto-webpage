@@ -6,13 +6,13 @@ description: "Data story con [desarro.io](https://desarro.io)"
 image: cover_calles.gif
 toc: false
 page-layout: article
-date: "3/22/2023"
+date: "3/08/2022"
 categories:
-  - gis
-  - leaflet
-  - ciudad
-  - género
-  - r
+  - Data stories
+  - Leaflet
+  - Ciudad
+  - Género
+  - R
 ---
 
 Solo 406 mujeres tienen calles con sus nombres en Lima y Callao. ¿Quiénes son esas mujeres en nuestra historia? ¿qué roles representan? ¿dónde están esas calles?.

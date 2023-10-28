@@ -30,6 +30,8 @@
   margin-bottom:0px;
 }
 
+
+
 .img-fluid{
   margin-bottom:20px;
 }
@@ -48,4 +50,8 @@
 .service-card {
   flex: 0 0 calc(33.33% - 20px); /* Distribute cards equally with 20px gap */
   max-width: calc(33.33% - 20px); /* Set the maximum width for each card */
+}
+
+.card-img{
+  vertical-align: top;
 }

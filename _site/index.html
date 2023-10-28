@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
@@ -213,44 +213,83 @@ gtag('config', 'G-Z7H5N2FX19', { 'anonymize_ip': true});
 <h1>Proyectos</h1>
 <div id="listing-portafolio" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="gis,leaflet,ciudad,género,r" data-listing-date-sort="1679461200000" data-listing-file-modified-sort="1698456262713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<a href="./portafolio/calles_de_mujeres.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./portafolio/cover_calles.gif" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="proyectos">
-De qué mujeres hablan nuestras calles
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="R,RShiny,Dashboards" data-listing-date-sort="1679461200000" data-listing-file-modified-sort="1698349145938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-categories="R,RShiny,Dashboards" data-listing-date-sort="1679461200000" data-listing-file-modified-sort="1698349145938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./portafolio/idsmh.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./portafolio/idsmh.gif" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./portafolio/idsmh.gif" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="proyectos">
 Tablero del Índice del desarrollo social de la mujer y el hombre
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RShiny'); return false;">
+RShiny
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Dashboards'); return false;">
+Dashboards
+</div>
+</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="R,RShiny,Dashboards" data-listing-date-sort="1679461200000" data-listing-file-modified-sort="1698456282898" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="1" data-categories="R,RShiny,Dashboards" data-listing-date-sort="1664168400000" data-listing-file-modified-sort="1698510606263" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./portafolio/mapa_embarazo_2022.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./portafolio/cover_mapaea.gif" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./portafolio/cover_mapaea.gif" class="thumbnail-image card-img" style="height: 250px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Tablero del Mapa del embarazo y la maternidad adolescentes 2022
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RShiny'); return false;">
+RShiny
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Dashboards'); return false;">
+Dashboards
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Data stories,Leaflet,Ciudad,Género,R" data-listing-date-sort="1646715600000" data-listing-file-modified-sort="1698510713140" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./portafolio/calles_de_mujeres.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./portafolio/cover_calles.gif" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+De qué mujeres hablan nuestras calles
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Data stories'); return false;">
+Data stories
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Leaflet'); return false;">
+Leaflet
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Ciudad'); return false;">
+Ciudad
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Género'); return false;">
+Género
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+</div>
 </div>
 </div>
 </a>
@@ -261,13 +300,13 @@ No matching items
 </div>
 </div>
 </section>
-<section id="galería" class="level1 column-screen gallery">
+<section id="galería" class="level1 column-screen gallery" style="margin-top:0px;">
 <h1>Galería</h1>
 </section>
 <div class="column-screen gallery quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="gallery/1_1_centrum_reactable.gif" class="lightbox" data-gallery="galeria" data-description="Las
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="gallery/1_1_centrum_reactable.gif" class="lightbox" data-description="Las
 
 tablas
 
@@ -301,7 +340,7 @@ en
 
 sus
 
-celdas."><img src="gallery/1_1_centrum_reactable.gif" class="img-fluid" style="width:100%;"></a> <a href="gallery/1_2_seguros_map.png" class="lightbox" data-gallery="galeria" data-description="Los
+celdas." data-gallery="galeria"><img src="gallery/1_1_centrum_reactable.gif" class="img-fluid" style="width:100%;"></a> <a href="gallery/1_2_seguros_map.png" class="lightbox" data-description="Los
 
 datos
 
@@ -319,7 +358,7 @@ nivel
 
 de
 
-manzana."><img src="gallery/1_2_seguros_map.png" class="img-fluid"></a> <a href="gallery/1_3_small_multiples.png" class="lightbox" data-gallery="galeria" data-description="Small
+manzana." data-gallery="galeria"><img src="gallery/1_2_seguros_map.png" class="img-fluid"></a> <a href="gallery/1_3_small_multiples.png" class="lightbox" data-description="Small
 
 multiples
 
@@ -351,56 +390,38 @@ nacional
 
 de
 
-hogares."><img src="gallery/1_3_small_multiples.png" class="img-fluid"></a> <a href="gallery/1_4_centrum_sunburst.gif" class="lightbox" data-gallery="galeria" data-description="Los
+hogares." data-gallery="galeria"><img src="gallery/1_3_small_multiples.png" class="img-fluid"></a> <a href="gallery/2_4_seguros_stackedbars.png" class="lightbox" data-description="Diagrama
+
+de
 
 datos
 
-jerárquicos
-
-pueden
-
-mostrarse
+apilados
 
 con
 
-sunbursts
+datos
 
-interactivos."><img src="gallery/1_4_centrum_sunburst.gif" class="img-fluid"></a> <a href="gallery/1_5_ministras_plot.png" class="lightbox" data-gallery="galeria" data-description="Gráfico
+del
 
-estático
+censo
 
-con
+de
 
-esquinas
-
-redondeadas
-
-para
-
-mostrar
-
-sucesiones
-
-en
-
-el
-
-tiempo.
-
-Colaboración
-
-con
-
-Carla
-
-Solís
+población
 
 y
 
-desarro.io."><img src="gallery/1_5_ministras_plot.png" class="img-fluid"></a></p>
+vivienda
+
+2017
+
+del
+
+Perú." data-gallery="galeria"><img src="gallery/2_4_seguros_stackedbars.png" class="img-fluid"></a></p>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="gallery/2_1_centrum_map.gif" class="lightbox" data-gallery="galeria" data-description="Los
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="gallery/2_1_centrum_map.gif" class="lightbox" data-description="Los
 
 mapas
 
@@ -422,7 +443,7 @@ se
 
 pueden
 
-explorar."><img src="gallery/2_1_centrum_map.gif" class="img-fluid"></a> <a href="gallery/2_2_centrum_snake.gif" class="lightbox" data-gallery="galeria" data-description="Los
+explorar." data-gallery="galeria"><img src="gallery/2_1_centrum_map.gif" class="img-fluid"></a> <a href="gallery/2_2_centrum_snake.gif" class="lightbox" data-description="Los
 
 diagramas
 
@@ -454,7 +475,7 @@ filtrar
 
 los
 
-datos."><img src="gallery/2_2_centrum_snake.gif" class="img-fluid"></a> <a href="gallery/2_3_mapaea_dashboard.gif" class="lightbox" data-gallery="galeria" data-description="Tablero
+datos." data-gallery="galeria"><img src="gallery/2_2_centrum_snake.gif" class="img-fluid"></a> <a href="gallery/2_3_mapaea_dashboard.gif" class="lightbox" data-description="Tablero
 
 en
 
@@ -466,35 +487,7 @@ el
 
 UNFPA
 
-Perú."><img src="gallery/2_3_mapaea_dashboard.gif" class="img-fluid"></a> <a href="gallery/2_4_seguros_stackedbars.png" class="lightbox" data-gallery="galeria" data-description="Diagrama
-
-de
-
-datos
-
-apilados
-
-con
-
-datos
-
-del
-
-censo
-
-de
-
-población
-
-y
-
-vivienda
-
-2017
-
-del
-
-Perú."><img src="gallery/2_4_seguros_stackedbars.png" class="img-fluid"></a> <a href="gallery/2_5_discursos_facet.png" class="lightbox" data-gallery="galeria" data-description="Diagramas
+Perú." data-gallery="galeria"><img src="gallery/2_3_mapaea_dashboard.gif" class="img-fluid"></a> <a href="gallery/2_5_discursos_facet.png" class="lightbox" data-description="Diagramas
 
 con
 
@@ -526,34 +519,10 @@ Solís
 
 y
 
-desarro.io."><img src="gallery/2_5_discursos_facet.png" class="img-fluid"></a> <a href="gallery/2_6_discursos_similitud.png" class="lightbox" data-gallery="galeria" data-description="Diagramas
-
-de
-
-dispersión.
-
-Colaboración
-
-con
-
-Luis
-
-Eduardo
-
-San
-
-martín,
-
-Carla
-
-Solís
-
-y
-
-desarro.io."><img src="gallery/2_6_discursos_similitud.png" class="img-fluid"></a></p>
+desarro.io." data-gallery="galeria"><img src="gallery/2_5_discursos_facet.png" class="img-fluid"></a></p>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="gallery/3_1_mapaea_infografia.png" class="lightbox" data-gallery="galeria" data-description="Infografías
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="gallery/3_1_mapaea_infografia.png" class="lightbox" data-description="Infografías
 
 estáticas
 
@@ -583,7 +552,7 @@ del
 
 UNFPA
 
-Perú."><img src="gallery/3_1_mapaea_infografia.png" class="img-fluid"></a> <a href="gallery/3_2_centrum_scatters.gif" class="lightbox" data-gallery="galeria" data-description="Diagramas
+Perú." data-gallery="galeria"><img src="gallery/3_1_mapaea_infografia.png" class="img-fluid"></a> <a href="gallery/3_2_centrum_scatters.gif" class="lightbox" data-description="Diagramas
 
 de
 
@@ -597,7 +566,7 @@ correlación
 
 entre
 
-variables"><img src="gallery/3_2_centrum_scatters.gif" class="img-fluid"></a> <a href="gallery/3_3_ministros_barplot.png" class="lightbox" data-gallery="galeria" data-description="Diagramas
+variables" data-gallery="galeria"><img src="gallery/3_2_centrum_scatters.gif" class="img-fluid"></a> <a href="gallery/3_3_ministros_barplot.png" class="lightbox" data-description="Diagramas
 
 estáticos
 
@@ -619,7 +588,66 @@ Eduardo
 
 San
 
-Martín."><img src="gallery/3_3_ministros_barplot.png" class="img-fluid"></a> <a href="gallery/3_4_calles_article.gif" class="lightbox" data-gallery="galeria" data-description="Data
+Martín." data-gallery="galeria"><img src="gallery/3_3_ministros_barplot.png" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="gallery/1_5_ministras_plot.png" class="lightbox" data-description="Gráfico
+
+estático
+
+con
+
+esquinas
+
+redondeadas
+
+para
+
+mostrar
+
+sucesiones
+
+en
+
+el
+
+tiempo.
+
+Colaboración
+
+con
+
+Carla
+
+Solís
+
+y
+
+desarro.io." data-gallery="galeria"><img src="gallery/1_5_ministras_plot.png" class="img-fluid"></a> <a href="gallery/2_6_discursos_similitud.png" class="lightbox" data-description="Diagramas
+
+de
+
+dispersión.
+
+Colaboración
+
+con
+
+Luis
+
+Eduardo
+
+San
+
+martín,
+
+Carla
+
+Solís
+
+y
+
+desarro.io." data-gallery="galeria"><img src="gallery/2_6_discursos_similitud.png" class="img-fluid"></a> <a href="gallery/3_4_calles_article.gif" class="lightbox" data-description="Data
 
 story
 
@@ -649,7 +677,21 @@ Solís
 
 y
 
-desarro.io."><img src="gallery/3_4_calles_article.gif" class="img-fluid"></a></p>
+desarro.io." data-gallery="galeria"><img src="gallery/3_4_calles_article.gif" class="img-fluid"></a> <a href="gallery/1_4_centrum_sunburst.gif" class="lightbox" data-description="Los
+
+datos
+
+jerárquicos
+
+pueden
+
+mostrarse
+
+con
+
+sunbursts
+
+interactivos." data-gallery="galeria"><img src="gallery/1_4_centrum_sunburst.gif" class="img-fluid"></a></p>
 </div>
 </div>
 </div>
@@ -1032,7 +1074,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"fade","selector":".lightbox","openEffect":"fade","loop":false,"descPosition":"right","skin":"galeria"});</script>
+<script>var lightboxQuarto = GLightbox({"skin":"galeria","descPosition":"right","loop":false,"closeEffect":"fade","selector":".lightbox","openEffect":"fade"});</script>
 
 
 

@@ -6,7 +6,7 @@ description: "Tablero en Shiny para UNFPA Perú"
 image: cover_mapaea.gif
 toc: false
 page-layout: article
-date: "3/22/2023"
+date: "9/26/2022"
 categories:
   - R
   - RShiny
