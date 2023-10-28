@@ -15,10 +15,23 @@
 }
 
 .column-screen{
-  background: #BAA6A5;
-  margin-top:-32px;
   margin-bottom:30px;
   padding: 50px;
+}
+
+.tagline{
+  background: #BAA6A5;
+  margin-top:-32px;
+}
+
+.gallery{
+  background: #CAB09A;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.img-fluid{
+  margin-bottom:20px;
 }
 
 .service-image{

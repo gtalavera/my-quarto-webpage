@@ -1,9 +1,9 @@
 ---
-title: "Tablero del Índice del desarrollo social de la mujer y el hombre"
-subtitle: "Tablero en Shiny para Centrum Pucp"
-description: "Tablero en Shiny para Centrum Pucp"
+title: "Tablero del Mapa del embarazo y la maternidad adolescentes 2022"
+subtitle: "Tablero en Shiny para UNFPA Perú"
+description: "Tablero en Shiny para UNFPA Perú"
 # author: "Gonzalo"
-image: idsmh.gif
+image: cover_mapaea.gif
 toc: false
 page-layout: article
 date: "3/22/2023"

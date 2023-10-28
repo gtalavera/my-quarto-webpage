@@ -3,7 +3,7 @@ title: "De qué mujeres hablan nuestras calles"
 subtitle: "Nombres de mujeres en calles de lima y callao"
 description: "Data story con [desarro.io](https://desarro.io)"
 # author: "Gonzalo"
-image: idsmh.gif
+image: cover_calles.gif
 toc: false
 page-layout: article
 date: "3/22/2023"
